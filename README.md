@@ -1,4 +1,4 @@
-# final-project-tech-68: Predicting Aircraft Damage from Wildlife Strikes
+# Predicting Aircraft Damage from Wildlife Strikes
 
 Machine learning project predicting whether a wildlife strike results in aircraft damage. Predicts aircraft damage resulting from wildlife strikes using flight characteristics, wildlife attributes, and environmental conditions. Analysis will apply supervised machine learning classification using  logistic regression and random forest to evaluate damage risk and identify influential features."
 
