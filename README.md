@@ -63,3 +63,20 @@ Ultimately, this project became an exploration of both aviation safety and the l
 ## Run the Notebook
 
 Open `Anna_TECH_68_Machine_learning_for_business_in_Python.ipynb` in Google Colab or Jupyter Notebook to explore the analysis and results.
+
+## Data Source and Usage
+
+This project is publicly available for educational use, learning, and further experimentation. Feel free to explore, reproduce, or build upon the analysis, with appropriate attribution.
+
+**Data Credit:** Federal Aviation Administration (FAA), *National Wildlife Strike Database*.
+
+- [FAA Wildlife Strike Database](https://wildlife.faa.gov/)
+
+The dataset is publicly accessible and remains credited to the FAA. This project is an independent educational analysis and is not affiliated with or endorsed by the FAA.
+
+---
+<div align="center">
+
+<img width="1160" height="585" alt="TECH 68" src="https://github.com/user-attachments/assets/838746b7-640b-4ed2-a25f-0d3fd78639f1" />
+
+</div>
