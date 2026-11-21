@@ -50,6 +50,16 @@ Future work could investigate alternative classification algorithms, more inform
 
 Ultimately, this project was a useful exploration of how machine learning can support aviation safety analysis, but it also demonstrated that strong overall metrics do not necessarily translate into reliable predictions for the cases that matter most. The model remains an exploratory tool rather than a system suitable for operational safety decisions.
 
+## Why Wildlife Strikes?
+
+My interest in aviation accident investigations and understanding the factors behind aircraft incidents led me to explore the FAA Wildlife Strike Database.
+
+While an unconventional choice for a machine learning project, the dataset offered an opportunity to investigate how wildlife, environmental conditions, and flight characteristics relate to aircraft damage.
+
+Some findings were intuitive, such as larger wildlife being associated with higher damage rates. However, the more interesting challenge was determining whether machine learning could reliably identify damaging incidents from a highly imbalanced dataset.
+
+Ultimately, this project became an exploration of both aviation safety and the limitations of predictive modeling, demonstrating that identifying meaningful patterns does not necessarily translate into reliable classification.
+
 ## Run the Notebook
 
 Open `Anna_TECH_68_Machine_learning_for_business_in_Python.ipynb` in Google Colab or Jupyter Notebook to explore the analysis and results.
