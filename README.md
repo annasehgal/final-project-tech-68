@@ -36,6 +36,20 @@ Random Forest was selected as the final model.
 
 The model demonstrates the potential to prioritize reported wildlife-strike incidents for further safety analysis, although it is not intended to replace aircraft inspections or predict strikes before they occur.
 
+## Limitations and Future Improvements
+
+While the Random Forest model demonstrated strong discrimination (ROC-AUC of 0.8849), its ability to identify damaging wildlife strikes was less satisfactory than I had hoped. With a recall of 43.68%, the model failed to identify more than half of the incidents that actually resulted in aircraft damage. For a problem involving aviation safety, this is a significant limitation.
+
+The dataset's class imbalance presented an additional challenge, with only approximately 6.2% of reported incidents involving damage. Although class weighting improved recall, it came at the cost of lower precision and more false positives. Hyperparameter tuning and additional feature engineering were also explored, but neither produced a substantial enough improvement to resolve the underlying problem.
+
+Another concern is the quality and completeness of the available data. Several features contained substantial missing information, and reporting practices may have influenced the patterns learned by the model. The model also relies on characteristics documented during or after a strike, limiting its usefulness for predicting incidents in advance.
+
+**While I am satisfied with what the project revealed, I am not entirely satisfied with the model's final performance.** Its ability to rank incidents by damage probability is encouraging, but identifying fewer than half of the damaging incidents leaves considerable room for improvement.
+
+Future work could investigate alternative classification algorithms, more informative features, improved handling of missing data, and additional threshold optimization. Incident-level data splitting and validation across different time periods would also help establish whether the results generalize beyond the current dataset.
+
+Ultimately, this project was a useful exploration of how machine learning can support aviation safety analysis, but it also demonstrated that strong overall metrics do not necessarily translate into reliable predictions for the cases that matter most. The model remains an exploratory tool rather than a system suitable for operational safety decisions.
+
 ## Run the Notebook
 
 Open `Anna_TECH_68_Machine_learning_for_business_in_Python.ipynb` in Google Colab or Jupyter Notebook to explore the analysis and results.
